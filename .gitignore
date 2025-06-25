@@ -1,0 +1,41 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+captures/
+local.properties
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+app/build/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Generated files
+bin/
+gen/
+out/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+
+# Kotlin and Android specific
+*.hprof
+*.apk
+*.aar
+*.dex
+*.class
