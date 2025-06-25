@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "junit": "^1.4.9",
+    "mockito": "^1.0.7",
     "vitest": "^3.2.4"
   }
 }
