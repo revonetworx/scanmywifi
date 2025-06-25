@@ -1,0 +1,31 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+
+# Kotlin/Java compiled files
+*.class
+*.dex
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build output
+bin/
+out/
+target/
+
+# Dependency directories
+app/build/
+.cxx/
+
+# Kotlin and Android specific
+*.hprof
+*.apk
+*.aab
