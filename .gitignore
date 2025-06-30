@@ -8,12 +8,24 @@
 /captures
 .externalNativeBuild
 .cxx
+=======
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+
 
 # Compiled class files
 *.class
 
 # Log files
 *.log
+
 
 # Dependency directories
 /node_modules
@@ -37,15 +49,36 @@
 .idea/jarRepositories.xml
 
 # Keystore files
+=======
+# Android generated files
+bin/
+gen/
+out/
+
+# Dependency directories
+node_modules/
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS system files
+.DS_Store
+
+# Signing files
+
 *.jks
 *.keystore
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
 .cxx/
+=======
+
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+
 
 # Freeline
 freeline.py
@@ -61,3 +94,7 @@ fastlane/readme.md
 
 # Local configuration file (sdk path, etc)
 local.properties
+=======
+# Sensitive or local configuration
+.env
+
