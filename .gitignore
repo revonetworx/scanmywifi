@@ -9,6 +9,30 @@
 
 # Java class files
 *.class
+=======
+# Android Studio
+*.iml
+.gradle/
+build/
+captures/
+local.properties
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+app/build/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
 
 # Generated files
 bin/
@@ -28,6 +52,50 @@ proguard/
 # Log Files
 *.log
 
+=======
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+
+# Kotlin and Android specific
+*.hprof
+*.apk
+*.aar
+*.dex
+*.class
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+
+# Dependency directories
+/node_modules
+/app/build
+/app/release
+
 # Android Studio Navigation editor temp files
 .navigation/
 
@@ -37,6 +105,11 @@ captures/
 # IntelliJ
 *.iml
 .idea/
+=======
+/captures
+
+# IntelliJ
+*.iml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -45,6 +118,27 @@ captures/
 .idea/libraries
 
 # Keystore files
+
+.idea/jarRepositories.xml
+
+# Keystore files
+
+# Android generated files
+bin/
+gen/
+out/
+
+# Dependency directories
+node_modules/
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS system files
+.DS_Store
+
+# Signing files
+
 *.jks
 *.keystore
 
@@ -76,3 +170,30 @@ htmlcov/
 .venv
 env/
 venv/
+
+
+.cxx/
+
+
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Local configuration file (sdk path, etc)
+local.properties
+# Sensitive or local configuration
+.env
+
