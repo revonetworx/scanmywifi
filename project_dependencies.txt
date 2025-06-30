@@ -1,0 +1,11 @@
+Android Testing Dependencies:
+1. JUnit: junit:junit:4.13.2
+2. Robolectric: org.robolectric:robolectric:4.9
+3. Mockito: org.mockito:mockito-core:4.5.1
+
+Build Gradle Dependency Example:
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.9'
+    testImplementation 'org.mockito:mockito-core:4.5.1'
+}
