@@ -1,0 +1,43 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Android generated files
+bin/
+gen/
+out/
+
+# Dependency directories
+node_modules/
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS system files
+.DS_Store
+
+# Signing files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Sensitive or local configuration
+.env
